@@ -1,0 +1,844 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semillero CODESEED | Investigación y Tecnología</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark container py-3">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+        <img src="./img/logo.png" alt="Logo del semillero" class="logo-nav">
+        <span>SEMILLERO CODESEED</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipos">Equipos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="#convocatorias">Convocatorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-nav-contact" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy" data-aos="fade-right">
+          <span class="eyebrow">Tecnología • Investigación • Innovación</span>
+          <h1>Un sitio web moderno para mostrar el impacto del semillero</h1>
+          <p>
+            En este espacio presentamos quiénes somos, qué investigamos, los eventos que realizamos,
+            nuestros equipos de trabajo y los productos académicos construidos por estudiantes.
+          </p>
+          <div class="hero-actions">
+            <a href="#sobre" class="btn btn-main">Explorar semillero</a>
+            <a href="#galeria" class="btn btn-outline-light btn-ghost">Ver galería</a>
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <h3>12+</h3>
+              <p>Proyectos activos</p>
+            </article>
+            <article>
+              <h3>3</h3>
+              <p>Líneas de investigación</p>
+            </article>
+            <article>
+              <h3>25</h3>
+              <p>Integrantes</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-aos="zoom-in">
+          <img src="./img/banner.png" alt="Banner del semillero">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Sobre el semillero</span>
+          <h2>Investigación formativa con enfoque tecnológico</h2>
+          <p>Una propuesta académica atractiva, clara y organizada.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3" data-aos="fade-up">
+            <article class="glass-card h-100">
+              <div class="icon-badge"><i class="fa-solid fa-book-open-reader"></i></div>
+              <h3>Reseña histórica</h3>
+              <p>El semillero nace para impulsar la investigación estudiantil y fortalecer la producción académica en ingeniería.</p>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+            <article class="glass-card h-100">
+              <div class="icon-badge"><i class="fa-solid fa-bullseye"></i></div>
+              <h3>Misión</h3>
+              <p>Promover habilidades investigativas, trabajo colaborativo y desarrollo de proyectos con impacto social y tecnológico.</p>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+            <article class="glass-card h-100">
+              <div class="icon-badge"><i class="fa-solid fa-eye"></i></div>
+              <h3>Visión</h3>
+              <p>Ser un referente universitario en innovación, divulgación académica y apropiación social del conocimiento.</p>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <article class="glass-card h-100">
+              <div class="icon-badge"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Objetivos</h3>
+              <p>Investigar, crear, participar en eventos, publicar resultados y fortalecer competencias digitales y científicas.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="lineas-box" data-aos="fade-up">
+          <h3>Líneas de investigación</h3>
+          <div class="chip-wrap">
+            <span class="chip">Desarrollo web</span>
+            <span class="chip">Inteligencia artificial</span>
+            <span class="chip">Analítica de datos</span>
+            <span class="chip">Software educativo</span>
+            <span class="chip">Ciberseguridad</span>
+            <span class="chip">UX y accesibilidad</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="eventos" class="section section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Agenda académica</span>
+          <h2>Eventos destacados</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="flip-left">
+            <article class="event-card">
+              <span class="event-date">20 Abr 2026</span>
+              <h3>Hackathon Universitario</h3>
+              <p><i class="fa-solid fa-location-dot"></i> Auditorio Central</p>
+              <p>Jornada de innovación para desarrollar soluciones tecnológicas en equipos interdisciplinarios.</p>
+            </article>
+          </div>
+          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="100">
+            <article class="event-card">
+              <span class="event-date">10 May 2026</span>
+              <h3>Taller de IA aplicada</h3>
+              <p><i class="fa-solid fa-location-dot"></i> Sala de Sistemas</p>
+              <p>Actividad práctica sobre modelos predictivos, datos y uso responsable de inteligencia artificial.</p>
+            </article>
+          </div>
+          <div class="col-lg-4" data-aos="flip-left" data-aos-delay="200">
+            <article class="event-card">
+              <span class="event-date">05 Jun 2026</span>
+              <h3>Encuentro de Semilleros</h3>
+              <p><i class="fa-solid fa-location-dot"></i> Campus Principal</p>
+              <p>Socialización de proyectos, ponencias, posters y productos académicos desarrollados por estudiantes.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN MEJORADA: EQUIPOS DE TRABAJO -->
+    <section id="equipos" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Talento humano</span>
+          <h2>Equipos de trabajo</h2>
+          <p>Conoce los grupos especializados que impulsan nuestros proyectos de investigación</p>
+        </div>
+
+        <!-- Equipo 1: Desarrollo Web -->
+        <div class="team-section" data-aos="fade-up">
+          <div class="team-header">
+            <div class="team-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="team-title-area">
+              <h3>Equipo Desarrollo Web</h3>
+              <p>Construcción de aplicaciones modernas y plataformas interactivas para la comunidad universitaria</p>
+            </div>
+          </div>
+          
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/alejandra-ortiz.webp" alt="María López">
+                  <div class="member-badge">Líder</div>
+                </div>
+                <div class="member-info"> 
+                  <h4>Alejandra Ortiz</h4>
+                  <p class="member-role"><i class="fa-solid fa-user-tie"></i> Líder de Equipo</p>
+                  <p class="member-bio">Especialista en frontend y arquitectura web</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="50">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/carlos-ruiz.jpg" alt="Carlos Ruiz">
+                </div>
+                <div class="member-info">
+                  <h4>Carlos Ruiz</h4>
+                  <p class="member-role"><i class="fa-solid fa-laptop-code"></i> Backend Developer</p>
+                  <p class="member-bio">Desarrollo de APIs y bases de datos</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/yazurith-yhamyle.jpg" alt="Ana Torres">
+                </div>
+                <div class="member-info">
+                  <h4>Yazurithxa Yhamyle</h4>
+                  <p class="member-role"><i class="fa-solid fa-palette"></i> UX/UI Designer</p>
+                  <p class="member-bio">Diseño de interfaces y experiencia de usuario</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="150">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/juan-gomez.jpg" alt="Juan Gómez">
+                </div>
+                <div class="member-info">
+                  <h4>Juan Gómez</h4>
+                  <p class="member-role"><i class="fa-solid fa-mobile-screen"></i> Frontend Developer</p>
+                  <p class="member-bio">Desarrollo responsive y componentes</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Equipo 2: Inteligencia Artificial -->
+        <div class="team-section" data-aos="fade-up">
+          <div class="team-header">
+            <div class="team-icon team-icon-ai">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="team-title-area">
+              <h3>Equipo Inteligencia Artificial</h3>
+              <p>Investigación y desarrollo de modelos de machine learning aplicados a problemas reales</p>
+            </div>
+          </div>
+          
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/sofia-martinez.jpg" alt="Sofía Martínez">
+                  <div class="member-badge">Líder</div>
+                </div>
+                <div class="member-info">
+                  <h4>Sofía Martínez</h4>
+                  <p class="member-role"><i class="fa-solid fa-user-tie"></i> Líder de Equipo</p>
+                  <p class="member-bio">Data Science y Deep Learning</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="50">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/andres-ramirez.jpg" alt="Andrés Ramírez">
+                </div>
+                <div class="member-info">
+                  <h4>Andrés Ramírez</h4>
+                  <p class="member-role"><i class="fa-solid fa-robot"></i> ML Engineer</p>
+                  <p class="member-bio">Modelos predictivos y NLP</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/laura-castro.jfif" alt="Laura Castro">
+                </div>
+                <div class="member-info">
+                  <h4>Laura Castro</h4>
+                  <p class="member-role"><i class="fa-solid fa-chart-simple"></i> Data Analyst</p>
+                  <p class="member-bio">Análisis y visualización de datos</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="150">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/diego-vega.webp" alt="Diego Vega">
+                </div>
+                <div class="member-info">
+                  <h4>Diego Vega</h4>
+                  <p class="member-role"><i class="fa-solid fa-database"></i> Data Engineer</p>
+                  <p class="member-bio">ETL y pipelines de datos</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Equipo 3: Analítica de Datos -->
+        <div class="team-section" data-aos="fade-up">
+          <div class="team-header">
+            <div class="team-icon team-icon-data">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="team-title-area">
+              <h3>Equipo Analítica de Datos</h3>
+              <p>Organización y visualización de información para encontrar patrones útiles en los proyectos</p>
+            </div>
+          </div>
+          
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/pedro-silva.webp" alt="Pedro Silva">
+                  <div class="member-badge">Líder</div>
+                </div>
+                <div class="member-info">
+                  <h4>Pedro Silva</h4>
+                  <p class="member-role"><i class="fa-solid fa-user-tie"></i> Coordinador</p>
+                  <p class="member-bio">Business Intelligence y estrategia</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="50">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/luisa-mora.jpg" alt="Luisa Mora">
+                </div>
+                <div class="member-info">
+                  <h4>Luisa Mora</h4>
+                  <p class="member-role"><i class="fa-solid fa-database"></i> Bases de datos</p>
+                  <p class="member-bio">Gestión y optimización de datos</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <article class="member-card">
+                <div class="member-photo">
+                  <img src="./img/diego-cruz.jfif" alt="Diego Cruz">
+                </div>
+                <div class="member-info">
+                  <h4>Diego Cruz</h4>
+                  <p class="member-role"><i class="fa-solid fa-chart-pie"></i> Visualización</p>
+                  <p class="member-bio">Dashboards y reportes interactivos</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVA SECCIÓN: NOTICIAS/BLOG -->
+    <section id="noticias" class="section section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Actualidad</span>
+          <h2>Noticias y Novedades</h2>
+          <p>Mantente informado sobre las últimas actividades y logros del semillero</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="fade-up">
+            <article class="news-card">
+              <div class="news-image">
+                <img src="./img/news1.jpg" alt="Noticia 1">
+                <span class="news-category">Logros</span>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="fa-solid fa-calendar"></i> 5 Abril 2026</span>
+                  <span><i class="fa-solid fa-user"></i> María López</span>
+                </div>
+                <h3>Primer lugar en competencia nacional de desarrollo</h3>
+                <p>Nuestro equipo de desarrollo web obtuvo el primer lugar en la Hackathon Nacional Universitaria con su innovadora plataforma educativa.</p>
+                <a href="#" class="news-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="news-card">
+              <div class="news-image">
+                <img src="./img/news2.png" alt="Noticia 2">
+                <span class="news-category">Publicación</span>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="fa-solid fa-calendar"></i> 28 Marzo 2026</span>
+                  <span><i class="fa-solid fa-user"></i> Sofía Martínez</span>
+                </div>
+                <h3>Artículo aceptado en revista indexada</h3>
+                <p>La investigación sobre aplicación de IA en educación fue aceptada para publicación en revista científica de alto impacto.</p>
+                <a href="#" class="news-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="news-card">
+              <div class="news-image">
+                <img src="./img/news3.jfif" alt="Noticia 3">
+                <span class="news-category">Evento</span>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="fa-solid fa-calendar"></i> 15 Marzo 2026</span>
+                  <span><i class="fa-solid fa-user"></i> Pedro Silva</span>
+                </div>
+                <h3>Taller de introducción a Data Science</h3>
+                <p>Más de 50 estudiantes participaron en nuestro taller intensivo sobre fundamentos de ciencia de datos y análisis predictivo.</p>
+                <a href="#" class="news-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVA SECCIÓN: TESTIMONIOS -->
+    <section id="testimonios" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Experiencias</span>
+          <h2>Testimonios</h2>
+          <p>Conoce las experiencias de quienes han sido parte del semillero</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="fade-up">
+            <article class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"El semillero CODESEED transformó mi visión sobre la investigación. Aprendí a trabajar en equipo, desarrollar proyectos reales y publicar resultados. Ahora trabajo en una empresa tech gracias a esta experiencia."</p>
+              <div class="testimonial-author">
+                <img src="./img/alejandra-ortiz.webp" alt="Andrea López">
+                <div>
+                  <h4>Andrea López</h4>
+                  <p>Egresada 2025 • Desarrolladora Frontend</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Participar en el equipo de IA me permitió aplicar teoría en casos prácticos. Desarrollamos un modelo predictivo que se implementó en la universidad. Una experiencia invaluable para mi formación."</p>
+              <div class="testimonial-author">
+                <img src="./img/andres-ramirez.jpg" alt="Miguel Santos">
+                <div>
+                  <h4>Miguel Santos</h4>
+                  <p>Miembro activo • Data Scientist Junior</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Como líder de equipo, el semillero me dio la oportunidad de guiar proyectos, aprender nuevas tecnologías y conectar con profesionales del sector. Lo recomiendo 100%."</p>
+              <div class="testimonial-author">
+                <img src="./img/ana-torres.jpg" alt="Carolina Díaz">
+                <div>
+                  <h4>Carolina Díaz</h4>
+                  <p>Ex-líder • Product Manager</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVA SECCIÓN: CONVOCATORIAS -->
+    <section id="convocatorias" class="section section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Oportunidades</span>
+          <h2>Convocatorias Abiertas</h2>
+          <p>Únete a nuestros equipos de investigación o participa en nuestras actividades</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <article class="convocatoria-card convocatoria-active">
+              <div class="convocatoria-badge">
+                <i class="fa-solid fa-circle-check"></i> Abierta
+              </div>
+              <div class="convocatoria-header">
+                <div class="convocatoria-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                  <h3>Nuevos Integrantes 2026-II</h3>
+                  <p class="convocatoria-deadline"><i class="fa-solid fa-clock"></i> Cierra: 30 Abril 2026</p>
+                </div>
+              </div>
+              <div class="convocatoria-content">
+                <p><strong>Requisitos:</strong></p>
+                <ul>
+                  <li>Ser estudiante activo de Ingeniería de Sistemas</li>
+                  <li>Promedio mínimo de 3.5</li>
+                  <li>Disponibilidad de 6 horas semanales</li>
+                  <li>Pasión por la investigación y la tecnología</li>
+                </ul>
+                <p><strong>Beneficios:</strong> Certificación, desarrollo de proyectos, networking, publicaciones.</p>
+              </div>
+              <a href="#contacto" class="btn btn-main w-100">Postularme ahora</a>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <article class="convocatoria-card convocatoria-active">
+              <div class="convocatoria-badge">
+                <i class="fa-solid fa-circle-check"></i> Abierta
+              </div>
+              <div class="convocatoria-header">
+                <div class="convocatoria-icon">
+                  <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div>
+                  <h3>Concurso de Ideas Innovadoras</h3>
+                  <p class="convocatoria-deadline"><i class="fa-solid fa-clock"></i> Cierra: 15 Mayo 2026</p>
+                </div>
+              </div>
+              <div class="convocatoria-content">
+                <p><strong>Categorías:</strong></p>
+                <ul>
+                  <li>Desarrollo de aplicaciones móviles</li>
+                  <li>Soluciones con IA/ML</li>
+                  <li>Proyectos de impacto social</li>
+                  <li>Innovación en educación digital</li>
+                </ul>
+                <p><strong>Premios:</strong> $500.000 primer lugar, equipos de cómputo, mentoría especializada.</p>
+              </div>
+              <a href="#contacto" class="btn btn-main w-100">Participar</a>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-right">
+            <article class="convocatoria-card">
+              <div class="convocatoria-badge convocatoria-badge-closed">
+                <i class="fa-solid fa-circle-xmark"></i> Cerrada
+              </div>
+              <div class="convocatoria-header">
+                <div class="convocatoria-icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div>
+                  <h3>Ponentes para Seminario Tech 2026</h3>
+                  <p class="convocatoria-deadline"><i class="fa-solid fa-clock"></i> Cerró: 1 Marzo 2026</p>
+                </div>
+              </div>
+              <div class="convocatoria-content">
+                <p>Convocatoria para seleccionar ponentes del evento anual de tecnología. Se seleccionaron 8 propuestas de investigación para presentación.</p>
+              </div>
+              <button class="btn btn-secondary w-100" disabled>Convocatoria cerrada</button>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <article class="convocatoria-card">
+              <div class="convocatoria-badge convocatoria-badge-coming">
+                <i class="fa-solid fa-hourglass-half"></i> Próximamente
+              </div>
+              <div class="convocatoria-header">
+                <div class="convocatoria-icon">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div>
+                  <h3>Financiación de Proyectos 2026</h3>
+                  <p class="convocatoria-deadline"><i class="fa-solid fa-calendar"></i> Abre: Junio 2026</p>
+                </div>
+              </div>
+              <div class="convocatoria-content">
+                <p>Próxima convocatoria para financiar proyectos de investigación estudiantil. Presupuesto disponible: $5.000.000. Más detalles próximamente.</p>
+              </div>
+              <button class="btn btn-outline-secondary w-100" disabled>Aún no disponible</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultados" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Impacto</span>
+          <h2>Resultados de investigación</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3" data-aos="fade-up">
+            <article class="metric-card">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h3>App educativa</h3>
+              <p>Aplicación de apoyo al aprendizaje autónomo de estudiantes.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+            <article class="metric-card">
+              <i class="fa-solid fa-chart-line"></i>
+              <h3>Analítica académica</h3>
+              <p>Visualizaciones para estudiar tendencias de rendimiento estudiantil.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+            <article class="metric-card">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Plataforma prototipo</h3>
+              <p>Sistema web para seguimiento de proyectos y actividades del semillero.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
+            <article class="metric-card">
+              <i class="fa-solid fa-file-lines"></i>
+              <h3>Ponencias y posters</h3>
+              <p>Productos de divulgación para eventos, encuentros y convocatorias académicas.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="section section-alt">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Producción académica</span>
+          <h2>Productos académicos</h2>
+        </div>
+
+        <div class="table-panel" data-aos="fade-up">
+          <div class="table-responsive">
+            <table class="table table-hover align-middle product-table mb-0">
+              <thead>
+                <tr>
+                  <th>Título</th>
+                  <th>Autor(es)</th>
+                  <th>Año</th>
+                  <th>Acceso</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Libro de Actualidad en gestión del conocimiento e intercambio tecnológico en la Amazonia</td>
+                  <td>Equipo CODESEED</td>
+                  <td>2025</td>
+                  <td><a href="https://www.uniamazonia.edu.co/documentos/docs/Vicerectoria%20de%20Investigaciones%20y%20Posgrados/Publicaciones/Libros/Actualidad%20en%20gestion%20del%20conocimiento%20e%20intercambio.pdf#page=22" class="btn btn-sm btn-outline-primary">PDF</a></td>
+                </tr>
+                <tr>
+                  <td>Articulo Innovación Educativa en Contexto Amazónico</td>
+                  <td>Díber Váquiro y César Omar</td>
+                  <td>2026</td>
+                  <td><a href="https://revistas.ufps.edu.co/index.php/profundidad/article/view/3859" class="btn btn-sm btn-outline-primary">Ver</a></td>
+                </tr>
+                <tr>
+                  <td>Ponencia Congreso TIC</td>
+                  <td>Semillero CODESEED</td>
+                  <td>2026</td>
+                  <td><a href="https://www.uniamazonia.edu.co/congresotic/" class="btn btn-sm btn-outline-primary">Consultar</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN MEJORADA: GALERÍA DE IMÁGENES -->
+    <section id="galeria" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <span class="mini-tag">Vida del semillero</span>
+          <h2>Galería de imágenes</h2>
+          <p>Explora los momentos más destacados de nuestras actividades</p>
+        </div>
+
+        <!-- Álbum 1: Eventos -->
+        <div class="gallery-album" data-aos="fade-up">
+          <h3 class="gallery-album-title">
+            <i class="fa-solid fa-calendar-days"></i> Eventos y Actividades
+          </h3>
+          <div class="gallery-grid">
+            <img src="./img/eventos1.jpg" alt="Hackathon 2026" class="gallery-img" data-album="eventos">
+            <img src="./img/eventos2.jpg" alt="Taller de IA" class="gallery-img" data-album="eventos">
+            <img src="./img/eventos3.jpg" alt="Encuentro de Semilleros" class="gallery-img" data-album="eventos">
+            <img src="./img/eventos4.jpg" alt="Conferencia Tech" class="gallery-img" data-album="eventos">
+          </div>
+        </div>
+
+        <!-- Álbum 2: Equipos trabajando -->
+        <div class="gallery-album" data-aos="fade-up">
+          <h3 class="gallery-album-title">
+            <i class="fa-solid fa-users"></i> Equipos en Acción
+          </h3>
+          <div class="gallery-grid">
+            <img src="./img/equipos1.jpg" alt="Equipo Web" class="gallery-img" data-album="equipos">
+            <img src="./img/equipos2.jpg" alt="Equipo IA" class="gallery-img" data-album="equipos">
+            <img src="./img/equipos3.jpg" alt="Equipo Datos" class="gallery-img" data-album="equipos">
+            <img src="./img/equipos4.jpg" alt="Trabajo colaborativo" class="gallery-img" data-album="equipos">
+          </div>
+        </div>
+
+        <!-- Álbum 3: Logros y reconocimientos -->
+        <div class="gallery-album" data-aos="fade-up">
+          <h3 class="gallery-album-title">
+            <i class="fa-solid fa-trophy"></i> Logros y Reconocimientos
+          </h3>
+          <div class="gallery-grid">
+            <img src="./img/premios1.jpg" alt="Premio nacional" class="gallery-img" data-album="logros">
+            <img src="./img/premios2.jpg" alt="Certificación" class="gallery-img" data-album="logros">
+            <img src="./img/premios3.jpg" alt="Presentación proyecto" class="gallery-img" data-album="logros">
+            <img src="./img/premios4.jpg" alt="Reconocimiento" class="gallery-img" data-album="logros">
+          </div>
+        </div>
+
+        <!-- Álbum 4: Talleres y capacitaciones -->
+        <div class="gallery-album" data-aos="fade-up">
+          <h3 class="gallery-album-title">
+            <i class="fa-solid fa-chalkboard-user"></i> Talleres y Capacitaciones
+          </h3>
+          <div class="gallery-grid">
+            <img src="./img/talleres1.jfif" alt="Taller Python" class="gallery-img" data-album="talleres">
+            <img src="./img/talleres2.jpg" alt="Workshop React" class="gallery-img" data-album="talleres">
+            <img src="./img/talleres3.jpg" alt="Curso Machine Learning" class="gallery-img" data-album="talleres">
+            <img src="./img/talleres4.jpg" alt="Capacitación Git" class="gallery-img" data-album="talleres">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal mejorado para galería -->
+    <div id="imageModal" class="image-modal">
+      <span class="close-modal">&times;</span>
+      <button class="modal-nav modal-prev"><i class="fa-solid fa-chevron-left"></i></button>
+      <img class="modal-content" id="modalImg" alt="Imagen ampliada">
+      <button class="modal-nav modal-next"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container">
+        <div class="section-heading text-white" data-aos="fade-up">
+          <span class="mini-tag mini-tag-light">Contáctanos</span>
+          <h2>¿Quieres saber más del semillero?</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7" data-aos="fade-right">
+            <form id="contactForm" class="contact-card">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                </div>
+                <div class="col-md-6">
+                  <label for="correo" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                </div>
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="5" placeholder="Cuéntanos en qué podemos ayudarte"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-main mt-4">Enviar mensaje</button>
+            </form>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade-left">
+            <div class="info-card">
+              <h3>Información del semillero</h3>
+              <p><i class="fa-solid fa-envelope"></i> semillero@universidad.edu.co</p>
+              <p><i class="fa-solid fa-location-dot"></i> Bloque de Ingeniería, Universidad Pública</p>
+              <p><i class="fa-solid fa-calendar-check"></i> Reuniones cada jueves — 4:00 p.m.</p>
+              <p><i class="fa-brands fa-facebook"></i> Facebook / Semillero CODESEED</p>
+              <p><i class="fa-brands fa-instagram"></i> Instagram / @semillerocodeseed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="./img/logo.png" alt="Logo" class="logo-footer">
+        <p class="mb-0">Semillero de investigación.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
