@@ -23,7 +23,7 @@ if (contactForm) {
   });
 }
 
-// Sistema de galería mejorado con navegación
+// Sistema de galería 
 const modal = document.getElementById("imageModal");
 const modalImg = document.getElementById("modalImg");
 const modalCaption = document.getElementById("modalCaption");
@@ -35,10 +35,9 @@ const nextBtn = document.querySelector(".modal-next");
 let currentImageIndex = 0;
 let currentImages = [];
 
-// Convertir NodeList a Array para facilitar navegación
 const allImages = Array.from(images);
 
-// Abrir modal al hacer clic en imagen
+//clic para abrir modal en la imagen
 images.forEach((img, index) => {
   img.addEventListener("click", () => {
     // Obtener todas las imágenes del mismo álbum
@@ -56,7 +55,7 @@ images.forEach((img, index) => {
   });
 });
 
-// Función para mostrar imagen
+// mostrar imagen
 function showImage(index) {
   if (currentImages.length === 0) return;
   
@@ -64,7 +63,7 @@ function showImage(index) {
   modalImg.src = img.src;
   modalImg.alt = img.alt;
   
-  // Mostrar caption si existe
+  // Caption
   if (modalCaption) {
     modalCaption.textContent = img.alt || `Imagen ${index + 1} de ${currentImages.length}`;
   }
@@ -95,7 +94,6 @@ if (closeModal) {
   });
 }
 
-// Cerrar al hacer clic fuera de la imagen
 if (modal) {
   modal.addEventListener("click", (e) => {
     if (e.target === modal) {
@@ -104,7 +102,6 @@ if (modal) {
   });
 }
 
-// Navegación con teclado
 document.addEventListener("keydown", (e) => {
   if (modal.style.display === "flex") {
     if (e.key === "ArrowLeft") {
@@ -119,7 +116,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Animaciones adicionales al hacer scroll
+// Animaciones 
 window.addEventListener('scroll', () => {
   const scrolled = window.pageYOffset;
   const heroShapes = document.querySelectorAll('.hero-shape');
@@ -141,7 +138,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         block: 'start'
       });
       
-      // Cerrar menú móvil si está abierto
+      // Cerrar menú móvil solo si está abierto sino pues no se necesita
       const navbarCollapse = document.querySelector('.navbar-collapse');
       if (navbarCollapse && navbarCollapse.classList.contains('show')) {
         const bsCollapse = new bootstrap.Collapse(navbarCollapse);
