@@ -237,7 +237,6 @@ a{text-decoration:none}
 .event-card h3{font-size:1.25rem;font-weight:700}
 .event-card p{color:var(--muted)}
 
-/* ESTILOS MEJORADOS PARA EQUIPOS DE TRABAJO */
 .team-section{
   margin-bottom:3.5rem;
   padding-bottom:3.5rem;
@@ -462,7 +461,6 @@ a{text-decoration:none}
   gap:.7rem;
 }
 
-/* ESTILOS PARA TESTIMONIOS */
 .testimonial-card{
   background:#fff;
   border-radius:var(--radius);
@@ -535,7 +533,6 @@ a{text-decoration:none}
   margin:0;
 }
 
-/* ESTILOS PARA CONVOCATORIAS */
 .convocatoria-card{
   background:#fff;
   border-radius:var(--radius);
@@ -677,7 +674,6 @@ a{text-decoration:none}
 }
 .product-table td{padding:1rem}
 
-/* ESTILOS MEJORADOS PARA GALERÍA */
 .gallery-album{
   margin-bottom:3.5rem;
 }
